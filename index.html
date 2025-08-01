@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi primera web</title>
+    <style> 
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 750px;">
+        <thead>
+        <tr> 
+            <th> Producto</th>
+            <th> Precio</th>
+            <th> Stock</th>
+        </tr>
+        </thead> 
+        <tbody>
+        <tr> 
+            <td>elemento estandar</td>
+            <td>esto es el Precio</td>
+            <td>esto es el stock</td>
+        </tr>
+        </tbody>
+        <tr> 
+            <td> Segundo elemento estandar</td>
+            <td> segundo precio</td>
+            <td> segundo stock</td>
+        </tr>
+        <tr> 
+            <td> Producto requete caro</td>
+            <td> precio requete caro</td>
+            <td> sotck</td>
+        </tr>
+        <tfoot> 
+            <td> </td>
+            <td>precio total</td>
+            <td> </td>
+        </tfoot>
+    </table>
+    <!-- ul es lista no ordenada-->
+    <ul>   
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <!-- ol es lista ordenada-->
+    <ol>   
+        <li value="50">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li> Elemento 5
+            <ol> 
+                <LI style="list-style-type: lower-roman;"> sub elemento 1</LI>
+                <LI style="list-style-type: lower-roman;"> sub elemento 2</LI>
+                <LI style="list-style-type: lower-roman;"> sub elemento 3</LI>
+            </ol>
+        </li>
+    </ol>
+
+
+
+
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6> abdecfghijklmn</h6>
+    <p>Lorem ipsum texto de ejemplo.</p>
+    <p> texto de ejemplo 2</p>
+    <hr>
+    <h2> heading 2 de ejemmplo</h2>
+    <p>ut mi non, varius varius dui. <span style="color:blue">Etiam lobortis tortor</span>
+        uis eros commodo vehicula.<br><br>texto de ejemplo para probar "< br >"
+    </p>
+    <!-- esto no se va a ver es un comentario-->
+     <a href="https://www.youtube.com"> Youtube </a>
+     <br> 
+     <a target="_blank" href="https://www.instagram.com">instagram</a>
+     <br>
+    <img src="img/meem.jpg" width="500" height="500"/> 
+    <form action="/formulario" method="post"> 
+        <label for="Nombre"> Nombre:</label>
+        <input value="Nombre" id="Nombre" name="Nombre" placeholder="Nombre"/>
+        <br>
+        <label for="Apellido">Apellido:</label>
+    <input value="Apellido" id="Apellido" placeholder="Apellido"/>
+    <br>
+        <br>
+        <label for="Comentarios" id="comentario">Comentarios</label>
+        <br>
+        <textarea cols="50" rows="10" id="Comentarios" placeholder="ingrese comentario" name="Comentarios">este es un valor por defecto</textarea>
+    <br>
+    <button type="button"><img src="img/bana.png" width="100" height="100"/> Boton</button>
+    <button type="reset"><img src="img/cangrejos.png" width="100" height="100"/>reset</button>
+    <button type="submit"><img src="img/gatocama.png" width="100" height="100"/>submit</button>
+    </form>
+
+
+</body>
+</html>
